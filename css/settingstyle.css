@@ -1,0 +1,95 @@
+
+#navbarSupportedContent {
+justify-content: flex-end;
+}
+
+
+.admin {
+  border-radius: 50%
+}
+
+body {font-family: "Lato", sans-serif;
+line-height:1;
+}
+/*start sidebar*/
+
+.btn-outline-success{
+  height: 31px
+}
+.navbar{
+  position: relative;
+
+}
+.sidebar {
+  height: 100%;
+  width: 175px;
+  position: fixed;
+  left: 0;
+  background-color: #CDD0D1;
+  padding-top: 16px;
+  top: 0px;
+
+}
+.sidebar .si{
+  padding-top:55px
+}
+.sidebar a {
+  padding: 6px 8px 10px 16px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  color: #83848D;
+
+}
+.sidebar a  i{
+  padding:5px
+}
+.sidebar a:hover {
+  background-color: #EBECED;
+  border-left: 5px solid #7EC8E4;
+}
+
+
+}
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 15px;}
+}
+.main {
+  margin-left: 220px; /* Same as the width of the sidenav */
+  padding: 10px 10px;
+
+
+}
+
+
+/*end sidebar*/
+
+/*setting style*/
+
+.form label{
+      margin-bottom: 0.2rem;
+      font-size: 14px;
+}
+.form-control{
+  padding: .275rem .55rem;
+  line-height: 1.2;}
+
+  .contact{
+    background: #F9F9F9;
+  height: 260px;
+
+  margin-left: 20px
+
+  }
+  .contact .con{
+    margin:35px 90px;
+  width: 40%
+  }
+  .contact .btn{
+  border-radius: 30px;
+  padding: 5px 0
+  }
+
+
+  /* end setting style*/

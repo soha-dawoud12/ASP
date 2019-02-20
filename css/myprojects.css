@@ -1,0 +1,179 @@
+
+#navbarSupportedContent {
+justify-content: flex-end;
+}
+
+
+.admin {
+  border-radius: 50%
+}
+
+body {font-family: "Lato", sans-serif;
+line-height:1;
+}
+/*start sidebar*/
+
+
+.navbar{
+  position: relative;
+
+}
+.sidebar {
+  height: 100%;
+  width: 175px;
+  position: fixed;
+  left: 0;
+  background-color: #CDD0D1;
+  padding-top: 100px;
+  top: 0px;
+
+}
+.sidebar .si{
+  padding-top:55px
+}
+.sidebar a {
+  padding: 6px 8px 10px 16px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  color: #83848D;
+
+}
+.sidebar a  i{
+  padding:5px
+}
+.sidebar a:hover {
+  background-color: #EBECED;
+  border-left: 5px solid #7EC8E4;
+}
+
+
+}
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 15px;}
+}
+.main {
+  margin-left: 150px; /* Same as the width of the sidenav */
+  padding: 10px 10px;
+
+
+}
+
+/*end sidebar*/
+/*start navbar main*/
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color:#F5586D
+
+}
+
+a{
+  color:#F5586D
+}
+.nav-tabs .nav-link{
+  color:#111
+}
+.icon{
+  font-size: 40px;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+
+/* card*/
+
+
+
+.card{
+  box-shadow: 1px 1px 1px #eee,
+              -1px -1px 1px  #eee
+
+}
+
+
+ .card .colors{
+  margin-top: -20px;
+
+height: 27px;
+margin-bottom: 10px;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px
+}
+
+@media (max-width: 550px){
+  .colors {
+   width: 200px;}
+
+  }
+
+
+
+.nav-link {
+    display: block;
+    padding: .1rem 1.5rem;
+  }
+@media (min-width: 576px)
+.card-group>.card+.card {
+    margin-left: 0;
+    border-left: 1;}
+/*.point div {
+    width: 4px;
+    height: 4px;
+    background-color: black;
+    margin: 3px 90px;
+    border-radius: 50%;
+  }*/
+
+.card .head{
+  text-align: center;
+  padding: 10px
+}
+.card .navigation-buttons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;}
+    .card .navigation-buttons > li > a {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 4px;
+    margin-bottom: 0px;
+    display: inline-block;
+    transition: all 0.5s;
+  background-color:#00E49A; }
+.card .smal1{
+  text-align: center;
+  margin-top: 0;
+  font-size: 12px
+}
+
+.card .image{
+  padding: 19px;
+  right: 12px
+
+}
+.card .image img{
+  border: 1px solid #eee;
+}
+.card  span{
+  margin-top: 10px;
+  text-decoration: underline;
+  font-size: 17px;
+  color: #8a8181;
+}
+.card  span:hover{
+  color:#F5586D;
+}
+
+.card .link .card-link{
+  background-color: #ccc;
+border-radius: 10px;
+width: 125px;  right: -10px;
+font-size: 14px
+
+}
